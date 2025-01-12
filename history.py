@@ -36,7 +36,7 @@ def fetch_data():
         INNER JOIN 
             BusPassengers
         ON 
-            BusHistory.RFidNo = BusPassengers.RFid;
+            BusHistory.RFidNo = BusPassangers.RFid;
         """
 
         # Execute the query
