@@ -29,12 +29,12 @@ def fetch_data():
             BusHistory.outLocation, 
             BusHistory.distance, 
             BusHistory.amount, 
-            BusPassengers.Name, 
-            BusPassengers.Gender
+            BusPassangers.Name, 
+            BusPassangers.Gender
         FROM 
             BusHistory
         INNER JOIN 
-            BusPassengers
+            BusPassangers
         ON 
             BusHistory.RFidNo = BusPassangers.RFid;
         """
